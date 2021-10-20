@@ -39,7 +39,8 @@ use \DTS\eBaySDK\Shopping\Enums;
  * Create the service object.
  */
 $service = new Services\ShoppingService([
-    'credentials' => $config['production']['credentials']
+    'credentials' => $config['production']['credentials'],
+    'authorization' => $config['production']['oauthUserToken']
 ]);
 
 /**
