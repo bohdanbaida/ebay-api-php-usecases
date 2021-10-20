@@ -1,6 +1,11 @@
 {
+    "repositories": [
+        {
+            "name": "bosston812/ebay-api-sdk-php", "type": "vcs", "url": "https://github.com/bosston812/ebay-api-sdk-php"
+        }
+    ],
     "require": {
-        "dts/ebay-sdk-php": "18.*",
+        "bosston812/ebay-api-sdk-php": "dev-master",
         "slim/slim": "^3.0",
         "slim/twig-view": "^2.2"
     }
